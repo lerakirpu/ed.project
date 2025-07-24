@@ -7,7 +7,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Указываем CMake где искать SFML
 set(SFML_ROOT "C:/SFML-3.0.0")  
 
-# Ищем SFML
 find_package(SFML 3.0.0 COMPONENTS graphics window system REQUIRED)
 
 if(SFML_FOUND)
